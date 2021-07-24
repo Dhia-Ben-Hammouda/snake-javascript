@@ -48,7 +48,6 @@ function gameloop()
     clearscreen();
     spawn_snake();
     spawn_food();
-    ;
     collision_detection();
     display_score();
     setTimeout(gameloop,1000/speed);
